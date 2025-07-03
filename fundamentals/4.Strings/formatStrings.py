@@ -13,3 +13,8 @@ print("Hi, my name is", firstName, lastName, "and I'm", age, "years old")
 #just add f before the double or single quotation
 #and if adding a variable, use a curly bracket{}
 print(f"Hi, my name is {firstName} {lastName} and I'm {age} years old")
+
+#you can also use f-string to limit  the decimal places of a number
+number = 4.33333333
+print(f"{number:.2f}") #by 2 decimal places
+print(f"{number:.3f}") #by 3 decimal places
